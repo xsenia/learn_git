@@ -7,3 +7,4 @@ period = 'Период';
 alert('Деньги - ' + money);
 console.log('period: ', period);
 console.log('addExpenses: ', addExpenses);
+console.log('Привет, мир!');
