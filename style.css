@@ -1,0 +1,61 @@
+.wrap {
+    padding: 10px;
+    border: 1px solid black;
+  }
+  
+  .menu-item {
+    background-color: yellow;
+    width: 100%;
+    height: 50px;
+    margin-bottom: 10px;
+  }
+  
+  .menu-item:nth-child(even){
+    background-color: grey;
+  }
+  
+  .menu-item:before {
+    content: "i'm menu item";
+    padding-top: 15px;
+    width: 100%;
+    display: block;
+    text-align: center;
+  }
+  
+  #open {
+    border: 1px solid blue;
+    padding: 5px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    text-align: center;
+  }
+  
+  .menu-content {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 60px;
+    bottom: 0;
+    padding: 20px;
+    overflow:auto;
+    -webkit-overflow-scrolling:touch;
+  }
+  
+  #menu {
+    display: none;
+    position: fixed;
+    padding: 10px;
+    top: 0px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: magenta;
+  }
+  
+  #close {
+    padding: 5px;
+    background: white;
+    text-align: center;
+    margin: 10px;
+    cursor: pointer;
+  }
